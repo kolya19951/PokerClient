@@ -10,7 +10,7 @@ import java.net.Socket;
 public class MainForm extends JFrame{
     private JPanel panel1;
     public JButton button1;
-    private JTextField message;
+    public JTextField message;
     String line;
     public Client client;
     public MainForm(){
@@ -26,6 +26,7 @@ public class MainForm extends JFrame{
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 try {
 
                     client.out.writeUTF(message.getText());
@@ -37,6 +38,8 @@ public class MainForm extends JFrame{
                 form2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 form2.setSize(500, 500);
                 form2.setVisible(true);
+                FormsController control2 = new FormsController(form2, client);
+
         }
     });
     }}
