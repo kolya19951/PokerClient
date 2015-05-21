@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Client {
     int serverPort = 1488;
-    String address = "127.0.0.1";
+    String address = "25.64.235.202";
     InputStream sin;
     OutputStream sout;
     DataInputStream in;
