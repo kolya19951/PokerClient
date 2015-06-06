@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f393a9b5-8e5b-4196-b25a-ad5120840eac" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\Client.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\FormsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\FormsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\FormsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\FormsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\MainForm$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\MainForm.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\PokerForm$BgPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\PokerForm.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\Client.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\FormsController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\MainForm.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\MainForm.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\PokerForm.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\PokerForm.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerClient.iml" afterPath="$PROJECT_DIR$/PokerClient.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -75,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerForm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PokerForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pack/PokerForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9081081" vertical-offset="854" max-vertical-offset="1751">
+            <state vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1751">
               <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerForm.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PokerForm.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pack/PokerForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
@@ -142,7 +124,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,10 +147,10 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/pack/Client.java" />
         <option value="$PROJECT_DIR$/src/pack/MainForm.java" />
-        <option value="$PROJECT_DIR$/src/pack/PokerForm.form" />
         <option value="$PROJECT_DIR$/src/pack/Command.java" />
         <option value="$PROJECT_DIR$/src/pack/Main.java" />
         <option value="$PROJECT_DIR$/src/pack/PokerForm.java" />
+        <option value="$PROJECT_DIR$/src/pack/PokerForm.form" />
       </list>
     </option>
   </component>
@@ -303,15 +285,15 @@
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="123" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="27" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="240" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="SearchEverywhereHistoryKey" value="tree&#9;null&#9;null" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -586,7 +568,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -599,7 +581,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23524962" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -920,11 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pack/PokerForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pack/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="918">
@@ -979,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pack/PokerForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9081081" vertical-offset="854" max-vertical-offset="1751">
+        <state vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1751">
           <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -994,6 +971,11 @@
             <element signature="e#2511#2512#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pack/PokerForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
