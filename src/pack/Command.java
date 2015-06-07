@@ -1,12 +1,15 @@
 package pack;
 
 
+import javax.swing.*;
+import java.awt.*;
+
 /**
  * Created by Коля on 26.05.2015.
  */
 public class Command {
     protected String command;
-    private String cards, suit1, suit2 = null, card_1 = null, card_2, login, field;
+    private String card_1 = null, card_2, login, field;
     private int position, bankroll;
     private Client client;
     private PokerForm form;
@@ -16,7 +19,6 @@ public class Command {
         this.client = client;
         this.form = form;
     }
-
 
 
     public void Action() {
@@ -41,30 +43,23 @@ public class Command {
 
     private void gameStartInfo() {
         for (int i = 0; i < 6; i++) {
-
             position = client.ReadInt();
             login = client.ReadUTF();
             bankroll = client.ReadInt();
             form.names[position].setText(login);
             form.bankrolls[position].setText(Integer.toString(bankroll));
         }
-        return;
     }
 
     private void youHand() {
-        card_1 = getCard(client.ReadUTF());
-        card_2 = getCard(client.ReadUTF());
-        form.card1_0.setText(card_1);
-        form.card2_0.setText(card_2);
-        return;
+        card_1 = client.ReadUTF();
+        card_2 = client.ReadUTF();
     }
 
     private void smallBlind() {
-        return;
     }
 
     private void bigBlind() {
-        return;
     }
 
     private void Change() {
@@ -76,28 +71,25 @@ public class Command {
             form.bankrolls[position].setText(String.valueOf(client.ReadInt()));
         if (field.equals("bank"))
             form.bank.setText(String.valueOf(client.ReadInt()));
-        return;
+        if (field.equals("hand")) {
+            form.cards[position * 2].setIcon(new ImageIcon(getCard()));
+            form.cards[position * 2 + 1].setIcon(new ImageIcon(getCard()));
+        }
+
     }
 
     private void Flop() {
         for (int i = 0; i < 3; i++) {
-            form.flops[i].setText(getCard(client.ReadUTF()));
+            form.flops[i].setIcon(new ImageIcon(getCard()));
         }
     }
 
-    private static String getCard(String card) {
-        String tmp = "";
-        if (card.substring(1).equals("0"))
-            tmp = "♠";
-        if (card.substring(1).equals("1"))
-            tmp =  "♣";
-        if (card.substring(1).equals("2"))
-            tmp = "♥";
-        if (card.substring(1).equals("3"))
-            tmp = "♦";
-        if (card.substring(0, 1).equals("T"))
-            return "10" + tmp;
-        return card.substring(0,1) + tmp;
+    private String getCard() {
+        card_1 = client.ReadUTF();
+        if (card_1.substring(0, 1).equals("T"))
+            return "C:\\Users\\Коля\\IdeaProjects\\PokerClient\\img\\cards\\" + "10" + card_1.substring(1) + ".png";
+        else
+            return "C:\\Users\\Коля\\IdeaProjects\\PokerClient\\img\\cards\\" + card_1 + ".png";
     }
 
     private void Bank() {
@@ -107,7 +99,6 @@ public class Command {
     }
 
     private void youTurn() {
-        return;
     }
 }
 

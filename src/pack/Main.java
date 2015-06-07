@@ -1,7 +1,5 @@
 package pack;
 
-
-
 /**
  * Created by Коля on 18.05.2015.
  */
