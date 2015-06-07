@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7523b7d-9dc3-44e3-b5b0-04fc5f41be10" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\FormsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\FormsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\FormsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\FormsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\servlet-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\servlet-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\pack\FormsController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\src\pack\servlet-api.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PokerClient/pack/Command.class" afterPath="$PROJECT_DIR$/out/production/PokerClient/pack/Command.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\Main.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\Main.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$1.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$1.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$2.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$2.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$3.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$3.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$4.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm$4.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm.class" afterPath="C:\Users\Коля\IdeaProjects\PokerClient\out\production\PokerClient\pack\PokerForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pack/Command.java" afterPath="$PROJECT_DIR$/src/pack/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pack/Main.java" afterPath="$PROJECT_DIR$/src/pack/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokerClient.iml" afterPath="$PROJECT_DIR$/PokerClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pack/PokerForm.form" afterPath="$PROJECT_DIR$/src/pack/PokerForm.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pack/PokerForm.java" afterPath="$PROJECT_DIR$/src/pack/PokerForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e7523b7d-9dc3-44e3-b5b0-04fc5f41be10" name="Default" comment="" />
     <ignored path="PokerClient.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -546,15 +520,15 @@
       <updated>1433669615607</updated>
       <workItem from="1433669620793" duration="2580000" />
       <workItem from="1433672464000" duration="101000" />
-      <workItem from="1433672609767" duration="15323000" />
+      <workItem from="1433672609767" duration="15916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18004000" />
+    <option name="totallyTimeSpent" value="18597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
