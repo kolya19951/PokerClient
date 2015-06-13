@@ -20,24 +20,30 @@ public class Command {
         this.form = form;
     }
 
-
-    public void Action() {
+    public void Action() throws CommandException {
         if (command.equals("game start info"))
             gameStartInfo();
-        if (command.equals("you hand"))
+        else if (command.equals("you hand"))
             youHand();
-        if (command.equals("change"))
+        else if (command.equals("change"))
             Change();
-        if (command.equals("flop"))
+        else if (command.equals("flop"))
             Flop();
-        if (command.equals("bank"))
+        else if (command.equals("turn"))
+            Turn();
+        else if (command.equals("river"))
+            River();
+        else if (command.equals("bank"))
             Bank();
-        if (command.equals("small blind"))
+        else if (command.equals("small blind"))
             smallBlind();
-        if (command.equals("big blind"))
+        else if (command.equals("big blind"))
             bigBlind();
-        if (command.equals("You turn"))
+        else if (command.equals("You turn"))
             youTurn();
+        else {
+            throw new CommandException("No such command");
+        }
         form.WaitCommand(client);
     }
 
@@ -86,10 +92,7 @@ public class Command {
 
     private String getCard() {
         card_1 = client.ReadUTF();
-        if (card_1.substring(0, 1).equals("T"))
-            return "C:\\Users\\Коля\\IdeaProjects\\PokerClient\\img\\cards\\" + "10" + card_1.substring(1) + ".png";
-        else
-            return "C:\\Users\\Коля\\IdeaProjects\\PokerClient\\img\\cards\\" + card_1 + ".png";
+        return "C:\\Users\\Коля\\IdeaProjects\\PokerClient\\img\\cards\\" + card_1 + ".png";
     }
 
     private void Bank() {
@@ -99,6 +102,15 @@ public class Command {
     }
 
     private void youTurn() {
+        form.setButtonsEnable();
+    }
+
+    private void Turn() {
+        form.turn.setIcon(new ImageIcon(getCard()));
+    }
+
+    private void River() {
+        form.river.setIcon(new ImageIcon(getCard()));
     }
 }
 

@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="servlet-api2">
+  <library name="resize">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/img/cards/resize.zip!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

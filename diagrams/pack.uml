@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pack</OriginalElement>
+  <nodes>
+    <node x="43.3" y="240.0">pack.Main</node>
+    <node x="0.0" y="80.0">pack.Command</node>
+    <node x="27.799999999999997" y="160.0">pack.PokerForm</node>
+    <node x="61.699999999999996" y="0.0">pack.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pack.PokerForm" target="pack.Command">
+      <point x="-36.80000000000001" y="-15.0" />
+      <point x="36.999999999999986" y="135.0" />
+      <point x="15.166666666666671" y="135.0" />
+      <point x="-30.333333333333332" y="15.0" />
+    </edge>
+    <edge source="pack.Command" target="pack.Client">
+      <point x="0.0" y="-15.0" />
+      <point x="45.5" y="55.0" />
+      <point x="72.53333333333333" y="55.0" />
+      <point x="-21.666666666666668" y="15.0" />
+    </edge>
+    <edge source="pack.Main" target="pack.PokerForm">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="pack.PokerForm" target="pack.Client">
+      <point x="18.400000000000006" y="-15.0" />
+      <point x="92.2" y="135.0" />
+      <point x="101.5" y="135.0" />
+      <point x="101.5" y="55.0" />
+      <point x="94.19999999999999" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="pack.Command" target="pack.PokerForm">
+      <point x="30.33333333333333" y="15.0" />
+      <point x="75.83333333333333" y="135.0" />
+      <point x="73.8" y="135.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="69.5" y="135.0" />
+  <SelectedNodes>
+    <node>pack.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

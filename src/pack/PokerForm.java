@@ -24,13 +24,14 @@ public class PokerForm extends JFrame {
     private JButton checkButton;
     private JTextField raise;
     private JRadioButton radioButton1, radioButton2, radioButton3, radioButton4, radioButton5;
+    protected JRadioButton[] radioButtons = new JRadioButton[]{radioButton1, radioButton2, radioButton3, radioButton4, radioButton5};
     private JLabel name0, name1, name2, name3, name4, name5;
     protected JLabel[] names = new JLabel[]{name0, name1, name2, name3, name4, name5};
     private JLabel bankroll0, bankroll1, bankroll2, bankroll3, bankroll4, bankroll5;
     private JLabel flop1, flop2, flop3;
     protected JLabel[] flops = new JLabel[]{flop1, flop2, flop3};
-    private JLabel turn;
-    private JLabel river;
+    protected JLabel turn;
+    protected JLabel river;
     private JLabel bet0, bet1, bet2, bet3, bet4, bet5;
     protected JLabel bank;
     private JButton button1;
@@ -52,6 +53,7 @@ public class PokerForm extends JFrame {
 
         setContentPane(rootpanel);
 
+        setButtonsDisable();
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -63,18 +65,21 @@ public class PokerForm extends JFrame {
                 client.SendUTF(message.getText());
                 message.setVisible(false);
                 button1.setVisible(false);
+
             }
         });
         checkButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 client.SendInt(0);
+                setButtonsDisable();
             }
         });
         foldButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 client.SendInt(-1);
+                setButtonsDisable();
             }
         });
         raiseButton.addActionListener(new ActionListener() {
@@ -82,7 +87,9 @@ public class PokerForm extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("You raise");
                 client.SendInt(Integer.parseInt(raise.getText()));
+                setButtonsDisable();
             }
+
         });
 
         serverCommand = new Command("", client, this);
@@ -93,7 +100,12 @@ public class PokerForm extends JFrame {
     public void WaitCommand(Client client) {
         System.out.println("w8");
         serverCommand.command = client.ReadUTF();
-        serverCommand.Action();
+        try {
+            serverCommand.Action();
+        } catch (CommandException e) {
+            e.printStackTrace();
+            WaitCommand(client);
+        }
     }
 
     class BgPanel extends JPanel {
@@ -107,8 +119,15 @@ public class PokerForm extends JFrame {
         }
     }
 
+    private void setButtonsDisable() {
+        checkButton.setEnabled(false);
+        raiseButton.setEnabled(false);
+        foldButton.setEnabled(false);
+    }
 
-
-
-
+    public void setButtonsEnable() {
+        checkButton.setEnabled(true);
+        raiseButton.setEnabled(true);
+        foldButton.setEnabled(true);
+    }
 }
